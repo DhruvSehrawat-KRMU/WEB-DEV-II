@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 30px;
+  min-height: 100vh;
+  background-color:rgb(44, 44, 44)
+}
+h1 {
+  text-align: center;
+  color: #5a5656;
+  margin-bottom: 25px;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1 
+}
+h2 {
+  margin-top: 0;
+  color: #13599e;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #000000;
+}
+textarea {
+  resize: none;
+  height: 70px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #000000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background: #011a45;
+}
+.top-buttons button {
+  margin-top: 0;
+}
+.event {
+  background: #ecf0f1;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.event h3 {
+  margin: 0;
+}
+.event small {
+  color: #555;
+}
+.empty {
+  color: #777;
+  text-align: center;
+  margin-top: 20px;
+}
